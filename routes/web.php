@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\ProductsController;
+=======
+>>>>>>> 85ecf79 (create a project)
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +18,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', [ProductsController::class, 'index'])->name('home');
 Route::resource('products', ProductsController::class);
 Route::resource('categories', CategoriesController::class );
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> 85ecf79 (create a project)

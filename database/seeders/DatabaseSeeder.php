@@ -20,7 +20,10 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+<<<<<<< HEAD
         $this->call(CategoryTableSeeder::class);
         $this->call(ProductTableSeeder::class);
+=======
+>>>>>>> 85ecf79 (create a project)
     }
 }
