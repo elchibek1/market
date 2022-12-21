@@ -10,7 +10,15 @@
 </head>
 <body>
 
-@yield('content')
+<div class="container mt-5">
+    @if(session('message'))
+        <div class="alert alert-primary" role="alert">
+            {{session('message')}}
+        </div>
+        @endif
+    @yield('content')
+</div>
+
 
 </body>
 
