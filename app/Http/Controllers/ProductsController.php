@@ -73,7 +73,7 @@ class ProductsController extends Controller
     public function update(ProductRequest $request, Product $product)
     {
         $product->update($request->validated());
-        return redirect()->route('show')->with('message', "{$product->title} successfully updated");
+        return redirect()->route('home', compact('product'))->with('message', "{$product->title} successfully updated");
     }
 
     /**
