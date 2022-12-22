@@ -5,7 +5,7 @@
     <h1>
         All products
     </h1>
-    <a href="{{route('products.create')}}" type="button" class="btn btn-outline-primary">
+    <a href="{{route('products.create')}}" type="button" class="btn btn-outline-primary mt-2">
         add product
     </a>
 
