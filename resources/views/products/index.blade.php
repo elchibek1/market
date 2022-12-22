@@ -9,7 +9,7 @@
         add product
     </a>
 
-    <table class="table">
+    <table class="table mt-5">
         <thead class="thead-dark">
             <tr>
                 <th scope="col">Title</th>
