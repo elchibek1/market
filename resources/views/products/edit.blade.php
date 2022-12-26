@@ -25,11 +25,12 @@
         </div>
         <div class="form-group">
             <label for="price">Price</label>
-            <input type="text" name="price" class="form-control" value="{{$product->price}}">
+        <input type="text" name="price" class="form-control" value="{{$product->price}}">
         </div>
-        {{--        <div class="form-group">--}}
-        {{--            <label for="category"></label>--}}
-        {{--        </div>--}}
+        <div class="form-group">
+            <label for="category">Category</label>
+            <input type="text" name="category_id" class="form-control" value="{{$product->category->name}}">
+        </div>
         <button type="submit" class="btn btn-primary mt-5">Submit</button>
     </form>
 
